@@ -3,7 +3,9 @@ const express = require("express");
 const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const allowedOrigins = [
-    "https://incomparable-travesseiro-7e8ae9.netlify.app", // tu frontend desplegado
+    "http://localhost:5173",
+    "https://incomparable-travesseiro-7e8ae9.netlify.app",
+    "https://otraprue.netlify.app"
   ];
 
 const app = express();
